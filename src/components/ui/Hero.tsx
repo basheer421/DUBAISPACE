@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import Image from "@/components/ui/Image";
 import { Button } from "./Button";
 
 type SpaceImage = {
@@ -118,6 +118,7 @@ export default function Hero() {
                       width={500}
                       height={625}
                       className="object-cover"
+                      fallbackSrc="/images/space-bg.jpg"
                     />
                   )
                 )}

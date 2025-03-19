@@ -1,6 +1,6 @@
 import React from "react";
 import MainLayout from "@/components/layout/MainLayout";
-import Image from "next/image";
+import Image from "@/components/ui/Image";
 import { Button } from "@/components/ui/Button";
 
 type Destination = {
